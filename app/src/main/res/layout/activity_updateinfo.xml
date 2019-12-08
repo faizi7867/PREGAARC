@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateinfo">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:drawableLeft="@drawable/fname"
+        android:textColorHint="@color/main"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:padding="12sp"
+        android:textColor="@color/main"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/fname"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Last Name"
+        android:textColor="@color/main"
+        android:textColorHint="@color/main"
+        android:inputType="textPersonName"
+        android:padding="12sp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/fname"
+        app:layout_constraintTop_toBottomOf="@+id/fname" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/date"
+        android:textColorHint="@color/main"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="D O B"
+        android:inputType="date"
+        android:padding="12sp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/address"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="280dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_home_black_24dp"
+        android:ems="10"
+        android:textColorHint="@color/main"
+        android:gravity="center_vertical"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:padding="12sp"
+        android:textColor="@color/main"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/phone"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Phone Number"
+        android:textColorHint="@color/main"
+        android:inputType="phone"
+        android:padding="12sp"
+        android:textColor="@color/main"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/lname"
+        app:layout_constraintTop_toBottomOf="@+id/lname" />
+
+    <EditText
+        android:id="@+id/fatherorhus"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/main"
+        android:drawableLeft="@drawable/fname"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Husband / Father's Name"
+        android:textColorHint="@color/main"
+        android:inputType="textPersonName"
+        android:padding="12sp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/dob"
+        app:layout_constraintTop_toBottomOf="@+id/dob" />
+
+    <EditText
+        android:id="@+id/husband_no"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="308dp"
+        android:drawableLeft="@drawable/phone"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:textColor="@color/main"
+        android:hint="Husband Phone Number"
+        android:textColorHint="@color/main"
+        android:inputType="phone"
+        android:padding="12sp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/lname"
+        app:layout_constraintTop_toBottomOf="@+id/lname" />
+
+    <Button
+        android:id="@+id/save"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="277dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="104dp"
+        android:background="@color/main"
+        android:clickable="true"
+        android:ellipsize="start"
+        android:padding="8dp"
+        android:text="Save"
+        android:textColor="#ffffff"
+
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/fatherorhus"
+        app:layout_constraintTop_toBottomOf="@+id/fatherorhus" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="413dp"
+        android:layout_height="124dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/infro" />
+
+    <Button
+        android:id="@+id/next"
+
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="277dp"
+        android:layout_height="68dp"
+
+        android:layout_marginTop="28dp"
+        android:background="@color/main"
+        android:clickable="true"
+        android:ellipsize="start"
+        android:padding="8dp"
+        android:text="PROCEED"
+
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/save"
+        app:layout_constraintTop_toBottomOf="@+id/save" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

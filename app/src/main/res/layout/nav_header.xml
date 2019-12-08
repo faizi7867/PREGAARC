@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorblue"
+
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    android:layout_height="182dp">
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingTop="1dp"
+       android:layout_marginTop="15dp"
+       android:paddingLeft="2dp"
+       android:layout_marginLeft="8dp"
+       android:src="@mipmap/ic_launcher_round"
+/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textColor="@color/white"
+        android:text="Welcome User"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="user@pregrc.com"
+        android:theme="@style/ThemeOverlay.AppCompat.DayNight" />
+
+
+
+</LinearLayout>

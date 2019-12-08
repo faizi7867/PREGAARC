@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@color/background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 5 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Pick up a pregnancy book."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Download a pregnancy app to help you stay organized for the next 8 months."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Buy a journal or memory book to record your milestones, symptoms, and questions for the next nine months."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Sign up for your Due Date club or join an in-person pregnancy support group."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Be sure to drink lots of water."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.Talk to your insurance company to find out which local doctors and hospitals are covered by your plan."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 6 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.If you're ready, start sharing the good news with family members and close friends."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Make your partner the official kitty litter changer."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Experiment with morning sickness remedies."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Decide whether you like your doctor enough to stick with him or her through delivery. If not, start looking for a new one."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 7 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week7" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Schedule and prepare for your first prenatal visit, which should happen between 8 and 12 weeks"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Compile a list of questions for your first doctor's appointment."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Clear your beauty cabinet of any chemical-laden products like DEET-filled insect repellent."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Buy a belly band to extend the life of your pants."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 8 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Shop for a new bra, whether it's a maternity bra or just a bigger, softer style."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Kegel exercises a part of your daily routine."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Pick up antacids in preparation for pregnancy heartburn, along with other drugstore staples."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:text="4.Make a dentist appointment." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:text="5.Discuss recommended prenatal tests with your doctor." />
+
+
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="previous"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/bck"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>

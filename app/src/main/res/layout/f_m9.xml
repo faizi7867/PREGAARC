@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@color/background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 33 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week33" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Start reading about newborn care."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Clean out your car to make room for baby."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Install your car seat and visit the National Highway Traffic Safety Administration's Web site to locate an inspection station near you so you can be sure you did it correctly."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 34 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week34" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Call your insurance company to add your baby-to-be to your policy."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Get tested for Group B strep (GBS)."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Buy any items you'll need for postpartum recovery."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Meet with several pediatricians to make your final choice."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 35 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week35" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Buy a baby book."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.If you plan to try breastfeeding, get the number of a recommended lactation consultant or join a local La Leche League International group."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Review your baby registry to see what items you still need to purchase before baby's arrival."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 36 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week36" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Schedule a non-stress test if it's recommended."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Review your birth plan with your doctor, midwife, doula, or any others involved."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Sleep in, take naps and get as many extra Z's as you can."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:text="4.Send thank-you notes for your shower gifts." />
+
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="previous"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/bck"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_afi">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+
+            android:src="@drawable/afi" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="6dp"
+            android:text="What causes low amniotic fluid?"
+            android:textColor="#5F0402"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="1. Birth defects -"
+            android:textColor="#03498A"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="372dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="  Problems with the development of the kidneys or urinary tract which could cause little urine production, leading to low levels of amniotic fluid." />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="2.Post Date Pregnancy–"
+            android:textColor="#03498A"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="375dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="   A postdate pregnancy (one that goes over 42 weeks) can have low levels of amniotic fluid, which could be a result of declining placental function." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="3.Maternal Complications–"
+            android:textColor="#03498A"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="378dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="    Factors such as maternal dehydration, hypertension, preeclampsia, diabetes, and chronic hypoxia can have an effect on amniotic fluid levels."
+
+            />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="4.Placental problems –"
+            android:textColor="#03498A"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="364dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="    If the placenta is not providing enough blood and nutrients to the baby, then the baby may stop recycling fluid." />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:text="What treatments are available?"
+            android:textColor="#5F0402"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="388dp"
+            android:layout_height="129dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text=" The treatment for low levels of amniotic fluid is based on gestational age. If you are not a full term yet,
+             your doctor will monitor you and your levels very closely. Tests such as non-stress and contraction stress test may be done to monitor your baby’s activity.
+            If you are close to full term, then delivery is usually what most doctors recommend in situations of low amniotic fluid levels." />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="Other treatments that may be used include:"
+            android:textColor="#03498A"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="386dp"
+            android:layout_height="74dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text=" 1.Amnio-infusion during labor through an intrauterine catheter.
+              This added fluid helps with padding around the umbilical cord during delivery and is reported to help lower the chances of cesarean delivery." />
+
+        <TextView
+            android:layout_width="387dp"
+            android:layout_height="99dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text=" 2.Injection of fluid prior to delivery through amniocentesis.  The condition of oligohydramnios is reported to often return within one week of this procedure,
+             but it can aid in helping doctors visualize fetal anatomy and make a diagnosis." />
+
+        <TextView
+            android:layout_width="384dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:text="3.Maternal re-hydration with oral fluids or IV fluids has shown to help increase amniotic fluid levels." />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

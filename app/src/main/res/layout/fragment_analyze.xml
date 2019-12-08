@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/background">
+
+
+    <EditText
+        android:id="@+id/afi"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:textColor="@color/main"
+        android:hint="Amniatic Fluid Index"
+        android:textColorHint="@color/main"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/crl"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:textColorHint="@color/main"
+        android:textColor="@color/main"
+        android:ems="10"
+        android:hint="Crown Rump Length"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/el"
+        app:layout_constraintTop_toBottomOf="@+id/el" />
+
+
+    <EditText
+        android:id="@+id/hemo"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Hemoglobin(g/dl)"
+        android:textColor="@color/main"
+        android:textColorHint="@color/main"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/crl"
+        app:layout_constraintTop_toBottomOf="@+id/crl" />
+
+    <EditText
+        android:id="@+id/bp"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
+        android:textColor="@color/main"
+        android:layout_marginTop="24dp"
+        android:textColorHint="@color/main"
+        android:ems="10"
+        android:hint="BP_Dystol(mm/hg)"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/hemo"
+        app:layout_constraintTop_toBottomOf="@+id/hemo" />
+
+    <EditText
+        android:id="@+id/el"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:textColorHint="@color/main"
+        android:hint="Endocervical length"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/fhr"
+        app:layout_constraintTop_toBottomOf="@+id/fhr" />
+
+    <EditText
+        android:id="@+id/fhr"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:textColorHint="@color/main"
+        android:ems="10"
+        android:hint="Fatel Heart Rate"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/afi"
+        app:layout_constraintTop_toBottomOf="@+id/afi" />
+
+    <EditText
+        android:id="@+id/bmi"
+        android:layout_width="287dp"
+        android:layout_height="54dp"
+        android:textColorHint="@color/main"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="BMI"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/bp"
+        app:layout_constraintTop_toBottomOf="@+id/bp" />
+
+    <Button
+        android:id="@+id/analyze"
+        android:layout_width="287dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/main"
+        android:clickable="true"
+        android:ellipsize="start"
+        android:padding="8dp"
+        android:text="ANALYZE"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/bmi"
+        app:layout_constraintTop_toBottomOf="@+id/bmi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

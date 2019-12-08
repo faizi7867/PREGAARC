@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@color/background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 37 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week37" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Send thank-you notes for your shower gifts."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Plan for your first few weeks with baby by cooking and freezing a few nights' or weeks' worth of dinners."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Stock up on diapers and formula."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Wash the baby clothes and bedding."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 38 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week38" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Tie up any loose ends with finances or medical insurance."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Make a list of who you want to contact when the baby arrives, including phone numbers and e-mail addresses."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Nail down your final choices for baby names."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 39 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week39" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Practice any relaxation or breathing techniques you've learned."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Wrap up at work and create a memo for your fill-in, just in case you go into labor before your due date."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Discuss with your partner the option of cutting the umbilical cord."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 40 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week40" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Be ready for your water to break, or for the mucus plug or bloody show."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Time your contractions."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Buy a few cold packs at the drugstore to use when the perineal cold packs from the hospital run out."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 41 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week41" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Enjoy those last few kicks and the amazing feeling of having your baby inside of you."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Do squats to help prepare your body for labor."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Take advantage of the extra time to rest."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 42 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week42" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Try a few tricks to bring on labor (or at least keep your mind off it) -- eat spicy foods, have sex, take a walk or stimulate your nipples."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Have the non-stress test again, or a contraction stress test."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Go to the hospital and get induced."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+
+
+
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="PREVIOUS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/bck"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

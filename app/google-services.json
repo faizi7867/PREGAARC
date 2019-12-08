@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "612348616201",
+    "firebase_url": "https://pregaarc.firebaseio.com",
+    "project_id": "pregaarc",
+    "storage_bucket": "pregaarc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612348616201:android:40eecb11acdb684ee722d8",
+        "android_client_info": {
+          "package_name": "com.codewithfaizi.pregaarc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612348616201-qd9l42q5uujh5la1csoo5a7kpvj3adq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codewithfaizi.pregaarc",
+            "certificate_hash": "70c1f1e9afc3b3eea14b201bc40b4eaae5ec1526"
+          }
+        },
+        {
+          "client_id": "612348616201-lk450i6nbcpssjrjbo4t6ruls96tbg2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIkXvd1dNa8LAQNIrVxnZAY07-NMB74nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612348616201-lk450i6nbcpssjrjbo4t6ruls96tbg2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

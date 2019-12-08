@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_crl">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/crown_rump_length"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crown-rump length"
+            android:textSize="32dp"
+            android:textColor="#5c175c"
+            android:textStyle="bold"
+            android:paddingTop="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="      Crown-rump length (CRL) is the measurement of the length of human embryos and fetuses from the top of the head (crown) to the bottom of the buttocks (rump). It is typically determined from ultrasound imagery and can be used to estimate gestational age."
+
+            />
+
+        <ImageView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/crl"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5c175c"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingTop="20dp"
+            android:textSize="25dp"
+            android:text="Measuring"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="      The embryo and fetus float in the amniotic fluid inside the uterus of the mother usually in a curved posture resembling the letter C. The measurement can actually vary slightly if the fetus is temporarily stretching (straightening) its body. The measurement needs to be in the natural state with an unstretched body which is actually C shaped. The measurement of CRL is useful in determining the gestational age (menstrual age starting from the first day of the last menstrual period) and thus the expected date of delivery (EDD). Different babies do grow at different rates and thus the gestational age is an approximation. Recent evidence has indicated that CRL growth (and thus the approximation of gestational age) may be influenced by maternal factors such as age, smoking, and folic acid intake. Early in pregnancy, around 10 weeks, it is accurate within +/- 4 days but later in pregnancy due to different growth rates, the accuracy is less. In that situation, other parameters can be used in addition to CRL. The length of the umbilical cord is approximately equal to the CRL throughout pregnancy."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="      Gestational age is not the same as fertilization age. It takes about 14 days from the first day of the last menstrual period for conception to take place and thus for the conceptus to form. The age from this point in time (conception) is called the fertilization age and is thus 2 weeks shorter than the gestational age. Thus a 6-week gestational age would be a 4-week fertilization age. Some authorities however casually interchange these terms[citation needed] and the reader is advised to be cautious. An average gestational period (duration of pregnancy from the first day of the last menstrual period up to delivery) is 280 days. On average, this is 9 months and 6 days."
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#5c175c"
+            android:textStyle="bold"
+
+            android:paddingTop="20dp"
+            android:textSize="25dp"
+            android:text="Typical measurements - "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:paddingTop="15dp"
+            android:text="Gestational Age for CRL"
+            />
+        <ImageView
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/details4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:text="  The following formula is an approximation that can be used up to 14 weeks of gestational age, with CRL in mm and gestational age in days"
+/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Gestational age ="
+            android:textColor="#332c57"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#ba0f2b"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:text="(CRL x 1.037)0.5 x 8.052 + 23.73"/>
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

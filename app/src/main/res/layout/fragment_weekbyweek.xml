@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/m1"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm1"/>
+            <ImageView
+                android:id="@+id/m2"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/m3"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm3"/>
+            <ImageView
+                android:id="@+id/m4"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/m5"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm5"/>
+            <ImageView
+                android:id="@+id/m6"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/m7"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm7"/>
+            <ImageView
+                android:id="@+id/m8"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm8"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/m9"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm9"/>
+            <ImageView
+                android:id="@+id/m10"
+                android:padding="20dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/amm10"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

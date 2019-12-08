@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 17 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week17" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Combat your forgetful 'pregnancy brain' with lots of notes and reminders."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Treat yourself to a prenatal massage."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Sign up for a childbirth class."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Start a college fund for baby-to-be by opening a 529 account or a special savings account."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Pick up a saline spray or humidifier to alleviate congestion caused by pregnancy."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 18 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week18" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Consider signing up for infant CPR, prenatal breastfeeding, or newborn-care classes."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Check your desk chair to see if a more supportive one or a footstool could help with back pain."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Is it a boy or is it a girl? Find out if desired at your mid-pregnancy ultrasound."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 19 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week19" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Scan your pix from your ultrasound and share them via e-mail and Facebook."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Have a date night."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Research nursery furniture."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Considering a home birth? Research the pros and cons."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 20 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week20" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Talk to your other half about how you'll handle life after baby."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Make sure you have flats or sensible shoes
+             - not 3-inch heels -- to live in for the next four months."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Know the symptoms and risks of preeclampsia."
+            android:paddingLeft="12dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="previous"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/bck"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

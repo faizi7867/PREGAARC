@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_fhr">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/background" >
+
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:src="@drawable/fatel_h_r" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Stress during pregnancy can   affect fetal heart rate"
+        android:textSize="24dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#0e0657"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          When the fetal heart rate is slower than expected during the first trimester, your physician may note that
+ there's some cause for concern and recommend a follow -up ultrasound to check the baby's development.
+ A slower than expected fetal heartbeat, referred to as fetal bradycardia, can mean higher odds of miscarriage. But it also may also be due to the pregnancy not being as far along as estimated."
+        android:paddingTop="15dp"
+        android:textAlignment="gravity"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="     Previous studies show that stress during pregnancy can
+        increase the risk of low-birth weight and premature births, but
+a growing body of evidence also suggests that pregnancy stress may 're-program' the fetal environment in ways that affect the baby's behavior and functioning later in life,
+according to the researchers."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:paddingTop="15dp"
+        android:text="Miscarriage Risk"
+        android:textStyle="bold"
+        android:paddingLeft="18dp"
+        android:textColor="#8a0e20"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:text="       The baby's heart rate should start somewhere around 100
+ beats per minute (bpm) around 6 weeks gestation the time of the first detection), peak at 9 weeks (sometimes even reaching levels as high as 180 bpm) and then gradually decrease as the fetus approaches term.
+  The average fetal heart rate changes during pregnancy. Some doctors consider the lower limit of normal to be:" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="1 . 100 bpm up to 6.2 weeks of gestation."
+        android:textColor="#285927"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 . 120 bpm at 6.3 to 7 weeks of gestation."
+        android:textColor="#ada41a"
+        android:paddingLeft="15dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="    If the fetal heart rate drops below this during the first seven weeks, the risk of miscarriage is seen to increase, with slower rates corresponding to poorer survival."
+        android:textColor="#0f0f3d"/>
+
+    <TextView
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="      During 13 to 18 weeks of gestation, the age of the fetus
+ can be determined  using  ultrasound.  Different  measurements  are  used  to  estimate  the  baby's  age
+ including the head circumference, abdominal circumference, length of the femur (thigh bone), and biparietal diameter (diameter of the skull)." />
+    <TextView
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      The accuracy of dating is plus or minus 7 days. In other words, the baby's age is estimated within about a week. At 24 weeks, this accuracy decreases and ultrasound is best used to assess fetal weight and growth."
+        android:paddingBottom="22dp"/>
+
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

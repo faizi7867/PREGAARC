@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@color/background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 13 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Begin thinking about baby names.	"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Start sleeping on your side."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Research pediatricians."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Eat smaller meals more frequently to stave off heartburn."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Consider borrowing previously worn maternity clothing from friends or family."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 14 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Tell your family and friends your good news if you haven't already."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Break the news to your boss, too."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Take advantage of your energy boost by checking things off your to-do list at home and at work."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Start taking weekly pictures of your beautiful belly."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 15 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week15" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Sign up for a prenatal yoga class."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Strengthen your abs with pelvic tilts."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Talk to you partner about finding out the sex of your baby."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Over 35? Schedule an amniocentesis if it's recommended."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.As your doctor about the quad marker screen."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Week 16 of Pregnancy"
+            android:textSize="35dp"
+            android:textColor="@color/colorblue"
+            android:textAlignment="center"
+            android:paddingTop="10dp"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="8dp"
+            android:src="@drawable/week16" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Be sure to get plenty of calcium now, from low-fat dairy foods or supplements."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.Tour local birth centers."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Start your baby registry."
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:text="4.Ask your mother or grandmother about their birthing experiences." />
+
+
+
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="previous"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/bck"
+            android:layout_width="300dp"
+            android:layout_marginLeft="37dp"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:text="back"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

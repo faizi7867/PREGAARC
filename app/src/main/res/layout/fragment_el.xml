@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_el">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@color/background"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:src="@drawable/fhr" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="7dp"
+            android:text="        Several studies on pregnancy have reported that cervical assessment may provide a useful tool for the prediction of preterm delivery5-8. However, there is no consensus as to what constitutes the normal pattern of change in cervical length during pregnancy. Very few studies have examined cervical changes between the first and second trimesters of pregnancy in relation to preterm delivery. In one study, 89 women at high risk for premature delivery had transvaginal sonographic measurements of the cervical length taken at least twice between the 15th and 24th weeks of gestation. The authors found that the incompetent cervix can begin to shorten at as early as 15 weeks' gestation and that the rates of cervical shortening were greater in the group with an incompetent cervix than in that with a normal cervix."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="    The aim of this study was to compare cervical length measurements at the 11–14‐week and 22–24‐week scans in an unselected group of pregnant women and correlate these measurements with the gestational age at delivery."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:text="      This was a prospective study involving 641 pregnant women attending the antenatal clinic of the Obstetric Department of São Paulo University between March 1999 and April 2000. Patients who had an elective preterm delivery or missing outcomes were excluded from the study. A total of 529 women who underwent a routine ultrasound scan at 11–14 weeks and at 22–24 weeks, and for whom the outcome of pregnancy was fully known, were included in the analysis. The scans included fetal examination and the option of having a transvaginal scan to measure cervical length as a screening test for spontaneous preterm delivery. The study had been approved by the Hospital Ethics Committee, and written informed consent was obtained from those who agreed to participate."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:text="Patients' characteristics, including demographic data and previous obstetric and medical history, were obtained from the patients at their first ultrasound scan and entered into a computer database. Similarly, the ultrasound findings were recorded in the database at the time of the scans. However, the results of the transvaginal scan were not recorded in the patients' and doctors' reports. A routine antenatal care examination was performed by the patients' original doctors. Gestational age was determined from the date of the last menstrual period and confirmed by the measurement of the crown–rump length at the first‐trimester scan. Data on pregnancy outcome were obtained from the fetal ultrasound database, hospital charts and patients themselves by telephone contact. Delivery occurring before 37 completed weeks of pregnancy was defined as preterm and that occurring before 33 weeks as extremely preterm."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:textSize="25dp"
+            android:textColor="#210520"
+            android:text="Statistical analysis"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="8dp"
+            android:text="   The mean cervical length was calculated at the 11–14‐week and the 22–24‐week scans. Student's t‐test was used to determine the differences in the cervical lengths at the first and second scans for the group of patients who delivered either at term or preterm. Multiple regression was used to determine the independent contribution of the shortening of the cervix, the cervical length at the 11–14 week and the 22–24 week scans, the past obstetric history and the demographic characteristics, in predicting preterm delivery in women at low and high risk. Wilks's statistics were used to test the differences between the groups. The sensitivity, specificity and positive and negative predictive values for a cervical length of ≤ 20 mm were calculated for spontaneous preterm delivery at 33 and 35 weeks of pregnancy."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:textSize="25dp"
+            android:textColor="#210520"
+            android:text="Results"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingTop="15dp"
+            android:text="    The median maternal age for the women involved in this study was 26.2 (range, 13–48) years. There was no significant difference in the mean maternal age, ethnic group or educational level between the group which delivered at term and the preterm group (Table 1)."
+
+            />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:paddingTop="15dp"
+             android:textColor="#0a5209"
+             android:text="Table 1. Patients' characteristics in those with preterm and term delivery"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:src="@drawable/details" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="There was spontaneous shortening of the cervix from the first to the second scan. This shortening was more pronounced in the group of women that delivered prematurely (Figure 1)."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/details2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="     Forty pregnant women had a previous history of one spontaneous preterm delivery or more. Cervical changes were also evaluated in this group between the first and second examination and compared to those of the group of women with no previous history of preterm delivery (Figure 2). The mean cervical length at the first examination was 42.6 mm and at the second it was 39.1 mm in the group without previous preterm delivery, and 42.8 mm and 35.1 mm in the group with previous preterm delivery, at the 11–14‐week and 22–24‐week scans, respectively. Therefore, there was a significantly faster decrease in cervical length between the first and the second examinations in the group of patients with a previous history of spontaneous preterm delivery than in that with no previous preterm delivery (P = 0.0001)."/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/details3"
+            android:paddingBottom="25dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
